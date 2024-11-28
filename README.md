@@ -1,13 +1,15 @@
-# Alex TV Box
+# Simple TV Display Box
+
+Android app that automatically launches when the device boots & displays a webpage. That's all :) 
 
 ## Setup
-1. Open the project in Android Studio.
-2. Set your web URL in `config.java`:
+
+1. Set your web URL in `config.java`:
    ```
    public static final String URL = "https://your-website.com";
    ```
-3. Build and install the app
-4. On first run, give it the permission to draw over other apps from system settings
+2. Build and install the app with Android Studio
+3. On first run, give it the permission to draw over other apps when the system settings dialog opens
 
 ## Usage
 
@@ -17,4 +19,4 @@
 
 ## Notes
 
-If the page doesn't load, the app will probably refresh every 30 seconds until it works.
+If the page doesn't load at first, the app will refresh until it does.
